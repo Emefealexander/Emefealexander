@@ -1,5 +1,162 @@
-Welcome to DaggerNut
-
-Login form
-
-Advertising and social form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DaggerNut globe</title>
+  <style type="text/css">
+  body {
+  font-size: default;
+  background: linear-gradient(90deg, #ff11aa, #663399);
+  background-position: center;
+  background-repeat: round;
+  color: #7303cb;
+  opacity: 0.9;
+  }
+  .text-danger:hover
+  {
+  color: green;
+  /*border-radius: 17em;
+  border-top: solid;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;*/
+  text-align: center;
+ /* letter-spacing: 11.60pt;*/
+  float: none;
+  text-shadow: currentColor;
+  font-size: 3ex;
+  font-family: monospace;
+  display: table;
+  align-self: baseline;
+  align-content: float;
+  }
+  #main
+  {
+  font-size: 14px;
+  color: #decafb;
+  }
+  #email
+  {
+  color: #cc33aa;
+  height: 5ex;
+  width: 50ex;
+  border-width: 3pt;
+  border-radius: 1.1em;
+  border: 3.5rem;
+  border-bottom-color: #bebabd;
+  border-left-color: #535cce;
+  border-top-color: #388823;
+  border-right-color: #388823;
+  }
+  #pwd
+  {
+  height: 5ex;
+  width: 50ex;
+  border-width: 3pt;
+  padding-left: center;
+  border: 45em;
+  border-radius: 1.1em;
+  border-bottom-color:   #bebdba;
+  border-left-color: #535cce;
+  border-top-color: #388823; 
+  border-right-color: #388823;
+  height: 5ex;
+  width: 50ex;
+  }
+  #personName
+  {
+  color: #cc22ee;
+  height:15ex;
+  width: 50ex;
+  border-radius: 1.1em;
+  /*border: 2.2em;
+  border-width: 3pt;
+  padding-left: center;
+  border-bottom-color: default;
+  border-left-color: default;
+  border-top-color: default;
+  border-right-color: default;*/
+  height: 5ex;
+  width: 50ex;
+  }
+  .btn-default
+  {
+  font-family: fantasy;
+  color: #00ffff;
+  background: linear-gradient(90deg,  #663399,#ff11aa,#663399);
+  opacity: 0.9;
+  width: 27em;
+  height: 2rem;
+  border-radius: 1.1em;
+  /*align-self: center;*/
+  }
+  .gender
+  {
+  float: right;
+  font-size: -7em;
+  border-radius: round;
+  }
+  </style>
+  <script type="text/javascript">
+  //Script goes in here!
+  </script>
+</head>
+<body>
+  <!--first div for h1 -->
+  <div id="main">
+ <h1 class="text-danger"<font color="6767cd">D</font><font color="cdcaef">a</font><font color="457cef">g</font><font color="00efcd">g</font>erN<font color="09cacd">ut</font><i>
+</h1>
+  </div>
+ <!-- div for h1 end -->
+ <!-- second div started -->
+    <div class="Contain">
+       <label class="control-label col-sm-2" for="FirstName">FirstName</label>
+      <input type="name" id="personName" placeholder="Enter First Name">
+       <label class="control-label col-sm-2" for="MiddleName">MiddleName:</label>
+      <input type="name" id="personName" placeholder="Enter Middle Name">
+       <label class="control-label col-sm-2" for="LastName">LastName:</label>
+      <input type="name" id="personName" placeholder="Enter Last Name">
+    </div><!-- second div end -->
+<form class="form-horizontal" action="/action_page.php">
+  <!-- third div start here -->
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email or phoneNumber">Email or PhoneNumber:</label>
+    <!-- forth div start here -->
+    <div class="col-sm-10">
+      <input type="email/phonenumber" class="form-control" id="email" placeholder="Enter email">
+    </div><!-- forth div end here -->
+  </div><!-- third div end here -->
+  <div class="form-group"><!-- fifth div start here -->
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10"><!-- sixth div start here -->
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password"><!-- input for password -->
+        <label class="control-label col-sm-2" for="pwd">ConfirmPassword:</label><!-- confirmation of password -->
+      <input type="password" class="form-control" id="pwd" placeholder="Confirm password">
+    </div><!-- sixth div end here -->
+  </div><!-- fifth div end here -->
+  <div class="form-group"><!-- seventh div start here -->
+    <div class="col-sm-offset-2 col-sm-10"><!-- eighth div start here -->
+      <div class="checkbox"><!-- ninth div start here -->
+        <p id="gender">Choose Gender:<br>
+        <label><input id="gender"type="radio">Male</label>
+        <label><input id="gender" type="radio">Female</label>
+        </p>
+        <label><input type="checkbox"> Remember me</label>
+      </div><!-- ninth div end here -->
+    </div><!-- eighth div end here -->
+  </div><!-- seventh div end here -->
+  <br>
+  <div class="form-group"><!-- tenth div start's here -->
+    <div class="col-sm-offset-2 col-sm-10"><!-- eleventh div start's here-->
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div><!-- eleventh div end here -->
+  </div><!-- tenth div end here -->
+</form>
+  <script type="text/JavaScript" src="main.js"></script>
+  <footer>
+    <p><br><br>© DaggerNut Team 2021</p>
+  </footer>
+</body>
+</html> 
